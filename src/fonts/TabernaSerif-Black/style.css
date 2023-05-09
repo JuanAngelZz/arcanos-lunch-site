@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Taberna';
+    src: local('Taberna Serif Black'), local('Taberna-Serif-Black'),
+        url('TabernaSerif-Black.woff2') format('woff2'),
+        url('TabernaSerif-Black.woff') format('woff'),
+        url('TabernaSerif-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
