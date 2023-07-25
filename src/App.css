@@ -202,19 +202,23 @@
 
   .p__opensans,
   .p__opensans-alternative {
-    font-size: 14px;
+    font-size: 16px;
+  }
+
+  .custom__button, .button__alternative {
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .p__opensans,
   .p__opensans-alternative {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .p__cormorant,
   .p__cormorant-alternative {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .headtext__cormorant,

@@ -29,9 +29,8 @@
   }
 
   .swiper-slide {
-    padding: 15rem 3rem;
-    min-height: 600px;
-
+    padding: 18rem 3rem 0 3rem;
+    min-height: 800px;
   }
 }
 
