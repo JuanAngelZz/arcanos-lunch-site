@@ -7,8 +7,10 @@ import { MdOutlineRestaurantMenu } from "react-icons/md";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -77,8 +79,22 @@ const Header = () => {
       </nav>
 
       <Swiper
-        pagination={true}
-        modules={[Pagination]}
+        spaceBetween={30}
+        effect={"fade"}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[EffectFade, Navigation, Pagination]}
+        style={{
+          "--swiper-pagination-color": "#000000",
+          "--swiper-pagination-bullet-inactive-color": "#ffffff",
+          "--swiper-pagination-bullet-inactive-opacity": "1",
+          "--swiper-pagination-bullet-size": "12px",
+          "--swiper-pagination-bullet-horizontal-gap": "8px",
+          "--swiper-pagination-bottom": "22px",
+          "--swiper-navigation-color": "#ffffff"
+        }}
         className="app__wrapper"
         id="home"
       >

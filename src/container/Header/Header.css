@@ -17,8 +17,19 @@
 .swiper-slide {
   width: 100%;
   min-height: 800px;
-  padding: 12rem 6rem;
+  padding: 18rem 6rem 0 6rem;
   background-color: var(--color-black);
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00000000 !important;
+  border: var(--color-white) 1px solid !important;
+}
+
+@media screen and (max-width: 920px) {
+  .swiper-slide {
+    padding: 14rem 3rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -30,7 +41,6 @@
 
   .swiper-slide {
     padding: 18rem 3rem 0 3rem;
-    min-height: 800px;
   }
 }
 
