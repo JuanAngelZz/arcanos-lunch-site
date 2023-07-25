@@ -16,17 +16,9 @@ const About = () => (
       <h1 className="headtext__alternative">Sobre Nosotros</h1>
 
       <div className="app__chef-content">
-        <p className="p__opensans-alternative">
-          ingredients, supporting sustainable farming practices, and delivering
-          exceptional quality. We aim to create a memorable dining experience
-          with impeccable service and a welcoming atmosphere. We celebrate the
-          art of cooking and the joy of sharing a meal, and constantly strive to
-          push the boundaries of our craft.
+        <p className="p__opensans-alternative upper">
+          Contamos con ingredientes que apoyan prácticas agrícolas sostenibles y brindando una calidad excepcional. Nuestro objetivo es crear una experiencia gastronómica memorable con un servicio impecable y un ambiente acogedor. Celebramos el arte de cocinar y la alegría de compartir una comida, y nos esforzamos constantemente por superar los límites de nuestro oficio.
         </p>
-      </div>
-
-      <div className="app__chef-sign">
-        <p>~ Arcanos Lunch</p>
       </div>
     </div>
   </div>

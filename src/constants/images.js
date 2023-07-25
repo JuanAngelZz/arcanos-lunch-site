@@ -4,10 +4,10 @@ import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
 import footer_logo from '../assets/footer_logo.png';
-import menu from '../assets/menu.png';
+import menu from '../assets/menu.jpeg';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.png';
-import logosvg from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 
 export default {
   about,
@@ -19,5 +19,5 @@ export default {
   menu,
   spoon,
   welcome,
-  logosvg
+  logo
 };

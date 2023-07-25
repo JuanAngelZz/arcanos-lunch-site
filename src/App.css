@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 6rem;
 }
 
 .flex__center {
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: #fcf6d5;
+  background: #fafafc;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -20,8 +20,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  min-height: 100vh;
 }
 
 .app__wrapper_info {
@@ -52,17 +50,18 @@
   width: 80%;
 }
 
-.custom__button {
-  background-color: var(--color-crimson);
-  color: var(--color-black);
-  font-family: var(--font-base);
+.custom__button, .button__alternative {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  font-family: var(--font-alt);
+  text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 0.04em;
   line-height: 28px;
-  font-size: 16px;
-  padding: 0.5rem 1.5rem;
-  border-radius: 1px;
+  font-size: 22px;
+  padding: 0.5rem 1rem;
   border: none;
+  border-radius: 5px;
   outline: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -70,8 +69,22 @@
 
 .custom__button:hover {
   transform: scale(1.1);
-  color: #fcf6d5;
+  color: var(--color-black);
+  background-color: var(--color-golden);
+}
+
+.button__alternative {
+  padding: 0.4rem 1.2rem;
+  border-radius: 10px;
+  color: var(--color-white);
   background-color: var(--color-black);
+  border: solid var(--color-white) 1px;
+}
+
+.button__alternative:hover {
+  transform: scale(1.1);
+  color: var(--color-black);
+  background-color: var(--color-white);
 }
 
 .p__cormorant, .p__cormorant-alternative {
@@ -86,13 +99,13 @@
 }
 
 .p__cormorant-alternative {
-  color: #959595;
+  color: #432820;
 }
 
 .p__opensans, .p__opensans-alternative {
   font-family: var(--font-alt);
   color: var(--color-white);
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 0.04em;
   /* text-transform: capitalize; */
   line-height: 28px;
@@ -100,7 +113,11 @@
 }
 
 .p__opensans-alternative {
-  color: #757575;
+  color: #432820;
+}
+
+.upper {
+  text-transform: uppercase;
 }
 
 .headtext__cormorant, .headtext__alternative {

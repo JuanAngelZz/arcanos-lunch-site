@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-@import './fonts/TabernaSerif-Black/style.css';
-@import './fonts/TabernaSerif-Regular/style.css';
+@import "./fonts/TabernaSerif-Black/style.css";
+@import "./fonts/TabernaSerif-Regular/style.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 :root {
   --font-base: "Taberna", serif;
-  --font-alt: "Taberna", sans-serif;
+  --font-alt: "Lato", sans-serif;
 
   --color-golden: #dcca87;
   --color-black: #0c0c0c;
   --color-brown: #442921;
-  --color-orange: #F15A27;
+  --color-orange: #f15a27;
   --color-gray: #545454;
   --color-crimson: #f5efdb;
   --color-grey: #aaaaaa;

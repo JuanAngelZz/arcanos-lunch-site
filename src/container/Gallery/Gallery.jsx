@@ -5,7 +5,6 @@ import {
   BsArrowLeftShort,
   BsArrowRightShort,
 } from "react-icons/bs";
-import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Gallery.css";
 
@@ -32,15 +31,14 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Síguenos en nuestras redes</h1>
-        <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
+        <h1 className="headtext__alternative">Síguenos en nuestras redes</h1>
+        <p className="p__opensans upper" style={{ color: "#fff", marginTop: "2rem", paddingRight: "50px" }}>
           Ya contamos con más de 20 mil seguidores en nuestra cuenta de
           instagram, apóyanos y comparte nuestras fotos y publicaciones.
         </p>
         <a
           href="https://www.instagram.com/arcanoslunch/"
-          className="custom__button"
+          className="button__alternative"
           style={{ display: "block", marginTop: "20px" }}
           target='_blank'
         >
