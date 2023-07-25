@@ -32,7 +32,7 @@ const Gallery = () => {
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
         <h1 className="headtext__alternative">Síguenos en nuestras redes</h1>
-        <p className="p__opensans upper" style={{ color: "#fff", marginTop: "2rem", paddingRight: "50px" }}>
+        <p className="p__opensans upper" style={{ color: "#fff", marginTop: "2rem"}}>
           Ya contamos con más de 20 mil seguidores en nuestra cuenta de
           instagram, apóyanos y comparte nuestras fotos y publicaciones.
         </p>
