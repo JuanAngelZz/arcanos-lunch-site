@@ -1,3 +1,7 @@
+.container {
+  overflow: hidden;
+}
+
 .section__padding {
   padding: 6rem;
 }

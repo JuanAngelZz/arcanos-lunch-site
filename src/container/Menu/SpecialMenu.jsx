@@ -10,10 +10,8 @@ const SpecialMenu = () => (
       <h1 className="headtext__alternative">Nuestro Menú</h1>
     </div>
 
-    <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine flex__center">
+    <div className="app__specialMenu-menu_img">
         <img src={images.menu} alt="menu" />
-      </div>
     </div>
 
     <div style={{ marginTop: "15px" }}>

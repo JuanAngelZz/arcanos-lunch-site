@@ -23,8 +23,15 @@
 
 @media screen and (max-width: 450px) {
   .app__header-h1 {
+    width: 100%;
     line-height: 55px;
     font-size: 45px;
+  }
+
+  .swiper-slide {
+    padding: 15rem 3rem;
+    min-height: 600px;
+
   }
 }
 
@@ -146,6 +153,7 @@
 @media screen and (max-width: 650px) {
   .app__navbar {
     padding: 1rem;
+    flex-direction: column;
   }
 
   .app__navbar-login {

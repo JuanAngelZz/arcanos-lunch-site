@@ -34,9 +34,9 @@
 }
 
 .app__specialMenu-menu_img {
-  width: 410px;
   margin: 0 2rem;
   align-self: center;
+  width: 550px;
 }
 
 .app__specialMenu-menu_img img {
@@ -52,10 +52,6 @@
 }
 
 @media screen and (max-width: 2000px) {
-  .app__specialMenu-menu_img {
-    width: 650px;
-  }
-
   .app__specialMenu-menu_img img {
     height: 750px;
   }
@@ -69,7 +65,7 @@
   }
 
   .app__specialMenu-menu_img {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .app__specialMenu-menu_img img {
