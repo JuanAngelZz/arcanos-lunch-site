@@ -1,23 +1,33 @@
-import React from "react";
-import { SubHeading, MenuItem } from "../../components";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./SpecialMenu.css";
 
 const SpecialMenu = () => (
-  <div className="app__specialMenu flex__center section__padding" id="menu">
-    <div className="app__specialMenu-title">
-      <SubHeading title="Disfruta todo en un sólo sitio" />
-      <h1 className="headtext__alternative">Nuestro Menú</h1>
+  <div className="app__bg" id="menu">
+    <div className="menu__content">
+      <div className="menu__wrapper">
+        <SubHeading title="Disfruta todo en un solo sitio" alter={true} />
+        <h1 className="headtext__alternative" style={{ marginBottom: "2rem" }}>
+          Nuestro Menú
+        </h1>
+        <Popup
+          trigger={<button className="custom__button">Ver Completo</button>}
+          modal
+        >
+          <img src={images.complete_menu} alt="menu" />
+        </Popup>
+      </div>
     </div>
 
-    <div className="app__specialMenu-menu_img" data-aos="zoom-out" data-aos-delay="200" data-aos-duration="1000">
-        <img src={images.menu} alt="menu" />
-    </div>
-
-    <div style={{ marginTop: "15px" }}>
-      <a href="/arcanos-lunch-site/src/assets/menu.jpeg" target="__blank" className="custom__button">
-        Ver Completo
-      </a>
+    <div className="menu__img">
+      <img
+        src={images.menu}
+        alt="menu"
+        data-aos="fade-left"
+        data-aos-delay="200"
+      />
     </div>
   </div>
 );

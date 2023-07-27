@@ -13,6 +13,11 @@
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
+  transition: .2s all ease-in;
+}
+
+.video__playing {
+  background: rgba(0, 0, 0, 0);
 }
 
 .app__video-overlay_circle {

@@ -4,9 +4,9 @@
   font-family: var(--font-base);
   color: var(--color-white);
   letter-spacing: 0.04em;
-  line-height: 99.9px;
-  font-size: 82px;
-  margin-bottom: 2rem;
+  line-height: 77.9px;
+  font-size: 68px;
+  margin-bottom: 3.5rem;
 }
 
 .swiper {
@@ -17,13 +17,18 @@
 .swiper-slide {
   width: 100%;
   min-height: 800px;
-  padding: 18rem 6rem 0 6rem;
+  padding: 16rem 6rem 0 6rem;
   background-color: var(--color-black);
 }
 
 .swiper-pagination-bullet-active {
   background-color: #00000000 !important;
   border: var(--color-white) 1px solid !important;
+}
+
+#slider-1 {
+  background: url('../../assets/slide-principal.png') no-repeat center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 920px) {
@@ -36,11 +41,15 @@
   .app__header-h1 {
     width: 100%;
     line-height: 55px;
-    font-size: 45px;
+    font-size: 38px;
   }
 
   .swiper-slide {
-    padding: 18rem 3rem 0 3rem;
+    padding: 16rem 2rem 0 2rem;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    color: rgba(0, 0, 0, 0) !important;
   }
 }
 
@@ -77,11 +86,17 @@
   margin: 0 2rem;
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .app__navbar-links li:hover {
   color: var(--color-grey);
+}
+
+#link-active {
+  color: var(--color-orange);
+  cursor: default;
 }
 
 .app__navbar-login {

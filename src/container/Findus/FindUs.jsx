@@ -10,20 +10,20 @@ const FindUs = () => (
         Dirección
       </h1>
       <div className="app__wrapper-content">
-        <p className="p__opensans-alternative upper">
+        <p className="p__opensans-alternative">
           Sector La Gonzalera, vía La Morita, San Antonio De Los Altos, Miranda,
           Venezuela, 1204
         </p>
         <p
-          className="p__cormorant upper"
+          className="p__cormorant"
           style={{ color: "#222", margin: "2rem 0" }}
         >
           Horarios
         </p>
-        <p className="p__opensans-alternative upper">
+        <p className="p__opensans-alternative">
           Lunes - Viernes: 6:00 AM - 2:00 PM
         </p>
-        <p className="p__opensans-alternative upper">
+        <p className="p__opensans-alternative">
           Sábado - Domingo: 6:00 AM - 2:00 PM
         </p>
       </div>

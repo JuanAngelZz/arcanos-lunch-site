@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
-
 @import "./fonts/TabernaSerif-Black/style.css";
 @import "./fonts/TabernaSerif-Regular/style.css";
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
 
 :root {
   --font-base: "Taberna", serif;
-  --font-alt: "Lato", sans-serif;
+  --font-alt: "Open Sans", sans-serif;
   --color-golden: #dcca87;
   --color-black: #0c0c0c;
   --color-brown: #442921;

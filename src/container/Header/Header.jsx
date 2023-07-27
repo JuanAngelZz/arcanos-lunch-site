@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <ul className="app__navbar-links">
           <li className="p__opensans">
-            <a href="#home">Inicio</a>
+            <p id="link-active">Inicio</p>
           </li>
           <li className="p__opensans">
             <a href="#about">Nosotros</a>
@@ -58,7 +58,7 @@ const Header = () => {
               />
               <ul className="app__navbar-smallscreen_links">
                 <li className="p__opensans">
-                  <a href="#home">Inicio</a>
+                  <p id="link-active">Inicio</p>
                 </li>
                 <li className="p__opensans">
                   <a href="#about">Sobre Nosotros</a>
@@ -93,21 +93,23 @@ const Header = () => {
           "--swiper-pagination-bullet-size": "12px",
           "--swiper-pagination-bullet-horizontal-gap": "8px",
           "--swiper-pagination-bottom": "22px",
-          "--swiper-navigation-color": "#ffffff"
+          "--swiper-navigation-color": "#ffffff",
         }}
         className="app__wrapper"
         id="home"
       >
-        <SwiperSlide>
-          <h1 className="app__header-h1">Las mejores empanadas del país</h1>
+        <SwiperSlide id="slider-1">
+          <h1 className="app__header-h1">
+            Las mejores empanadas están en Arcanos Lunch
+          </h1>
           <a href="#find" className="custom__button">
             Visítanos
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="slider-2">
           <h4 className="app__header-h1">Slider 2</h4>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="slider-3">
           <h4 className="app__header-h1">Slider 3</h4>
         </SwiperSlide>
       </Swiper>

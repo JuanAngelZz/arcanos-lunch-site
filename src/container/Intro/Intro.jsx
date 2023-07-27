@@ -29,13 +29,13 @@ const Intro = () => {
         loop
         controls={false}
       />
-      <div className="app__video-overlay flex__center">
+      <div className={ !playVideo ? "app__video-overlay flex__center" : "app__video-overlay flex__center video__playing" }>
         <div
-          className="app__video-overlay_circle flex__center"
+          className={ !playVideo ? "app__video-overlay_circle flex__center" : "" }
           onClick={handleVideo}
         >
           {playVideo ? (
-            <BsPauseFill color="#fff" fontSize={30} />
+            <BsPauseFill color="rgba(255, 255, 255, 0.3)" fontSize={50} />
           ) : (
             <BsFillPlayFill color="#fff" fontSize={30} />
           )}

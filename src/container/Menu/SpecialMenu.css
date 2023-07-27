@@ -1,85 +1,62 @@
-.app__specialMenu {
-  flex-direction: column;
-  background-color: var(--color-brown);
-}
-
-.app__specialMenu-title {
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
-.app__specialMenu-menu {
+#menu {
+  height: 800px;
   width: 100%;
-  margin: 2rem 0;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
   flex-direction: row;
 }
 
-.app__specialMenu-menu_heading {
-  font-family: var(--font-base);
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 58.5px;
-  letter-spacing: 0.04em;
-  color: var(--color-white);
+.menu__img {
+  height: 100%;
+  width: 50%;
+  background-color: var(--color-brown);
 }
 
-.app__specialMenu-menu_wine,
-.app__specialMenu-menu_cocktail {
-  flex: 1;
+.menu__img img {
   width: 100%;
-  flex-direction: column;
+  height: 100%;
 }
 
-.app__specialMenu-menu_img {
-  margin: 2rem;
-  align-self: center;
-  width: 550px;
-}
-
-.app__specialMenu-menu_img img {
-  width: 100%;
-  height: auto;
-}
-
-.app__specialMenu-menu_items {
+.menu__content {
+  height: 100%;
+  width: 50%;
   display: flex;
-  flex-direction: column;
-  margin: 2rem 0;
+  align-items: center;
+  padding: 4rem;
+}
+
+.popup-content {
+  height: 38rem;
+  width: 450px;
+}
+
+.popup-content img {
+  height: 100%;
   width: 100%;
 }
 
 @media screen and (max-width: 2000px) {
-  .app__specialMenu-menu_img img {
-    height: 750px;
+  .app__chef-sign img {
+    width: 370px;
   }
 }
 
-@media screen and (max-width: 1150px) {
-  .app__specialMenu-menu {
+@media screen and (max-width: 450px) {
+  #menu {
+    height: 100%;
     flex-direction: column;
-    align-items: center;
+  }
+
+  .menu__content {
     width: 100%;
+    padding: 2rem;
+    background-color: var(--color-brown);
   }
 
-  .app__specialMenu-menu_img {
-    margin: 2rem 0;
+  .menu__wrapper .aos-init .p__cormorant-alternative {
+    color: var(--color-white) !important;
   }
 
-  .app__specialMenu-menu_img img {
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .app__specialMenu-menu_img {
+  .menu__img {
     width: 100%;
-  }
-
-  .app__specialMenu-menu_heading {
-    font-size: 35px;
-    line-height: 48.5px;
   }
 }
